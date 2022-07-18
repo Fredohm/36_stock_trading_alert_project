@@ -33,8 +33,6 @@ if percent > 0:
 else:
     up_down = "🔻"
 
-# STEP 2: Use https://newsapi.org
-# Instead of printing ("Get News"), actually get the first 3 news pieces for the COMPANY_NAME. 
 news_api_key = os.environ.get("NEWS_API_KEY")
 news_api_parameters = {
     "q": COMPANY_NAME,
